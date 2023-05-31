@@ -1,0 +1,65 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(24, 136, 127);
+}
+
+#logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 1% ; 
+}
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.4em;
+    border-radius: 8px;
+    background-color: rgb(66, 24, 7);
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: 5% 3%;
+}
+nav{ /* on peut utiliser display:flex; puis width pour la taille ex: 70%, puis mettre la marge en auto*/
+    font-size: 1.6em;
+    background-color: rgb(66, 24, 7);
+    color: white;
+    margin: 0 3%;
+    padding: 0 0;
+    text-align: center;
+    width: 94%;
+}
+nav>a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 5%;
+}
+a:hover{
+    background-color: rgb(100, 77, 67);
+}
+.img{
+    border-radius: 2%;
+    margin: 0% 3% 1% 3%;
+    width: 700px;
+}
+.fas{
+    background-color: rgb(66, 24, 7) ;
+}
+main{
+    display: flex;
+}
+section{
+    width: 70%;
+    padding: 3%;
+}
+
+aside{
+    width: 30%;
+    background-color: white;
+    margin: 0 3% 3% 0;
+}
+aside>p{
+    background-color: white;
+    padding: 3%;
+}

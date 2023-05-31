@@ -1,0 +1,144 @@
+@font-face{
+    font-family: 'thedark';
+    src: url(../fonts/TheDark.ttf) format(opentype);
+}
+
+body{
+    background: linear-gradient(120deg, black 20%, red 30%, black 20%);
+    color: white;
+    background-repeat: repeat;
+}
+
+h2{
+    text-align: center;
+    margin: 1.5%;
+    font-family: 'thedark';
+}
+
+header{
+    width: 55%;
+    background-color: rgb(51, 51, 51);
+    font-family: 'thedark';
+    padding: 0.5% 0.5%;
+    align-items: baseline;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+}
+
+#logo{
+    width: 90px;
+    display: inline;
+    
+}
+
+nav{
+    display: inline;
+    text-align: center;
+    padding: 0 2%;
+}
+nav>a{
+    text-decoration: none;
+    color: red;
+    padding: 1% 4%;
+}
+
+#carouselExampleIndicators{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*                    MEMBRES                 */
+
+.figure-caption{
+    color:white
+}
+
+#members{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+/*                       Discographie                 */ 
+
+.figure-img{
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    margin: 0 5%;
+}
+
+#discographie{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 10%;
+}
+.card{
+    margin-bottom: 1%;
+}
+
+.card-text{
+    color: black;
+}
+
+.card-title{
+    color: red;
+}
+
+.btn{
+    background-color: red;
+    border-color: red;
+    font-family: 'thedark';
+}
+
+.btn:hover{
+    background-color: black;
+    border-color: black;
+}
+
+/* ********************** CONCERTS ***************** */
+
+#tableau{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre{
+    color: red;
+}
+
+.table-group-divider{                                 /* A REVOIR */
+    border-top-color: red;
+}
+
+.colone{
+    color: white;
+}
+
+/*  ******************** CONTACT ******************  */
+
+#contact{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'thedark';
+    color: red;
+}
+

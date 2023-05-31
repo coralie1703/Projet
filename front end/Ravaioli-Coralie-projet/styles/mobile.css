@@ -1,0 +1,172 @@
+@media screen and (max-width: 560px)
+{
+    /** ----------------- ALL ------------------ **/
+
+    #logoRiot{display: none;
+    }
+
+    .navbar{
+        padding: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoFooter{
+        width: 5%;
+    }
+    
+    .logoFooter1{
+        width: 6%;
+    }
+
+    iframe{
+        width: 230px;
+        height: auto;
+    }
+
+    /** ------------------------ RIOT ------------------------ **/
+
+    #section1{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section2{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .league{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section3{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .valorant{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section4{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arcane{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texte-presentation{
+        width: 80%;
+    }
+
+    /** ------------------------- LEAGUE ------------------ **/
+
+    .asidelol{
+        display: none;
+    }
+
+    .presentation{
+        width: 80%;
+    }
+
+    #mapLeague{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .mapleague{
+        width: 85%;
+        margin: auto;
+        border-radius: 35px;
+    }
+    #roleLeague{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    .carouselLol{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #liensExterneLol{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /** ------------------- VALORANT -------------------- **/
+
+    .asidevalo{
+        display: none;
+    }
+
+    #tableauValo{
+        width: 110%;
+        padding: 3% 0.5% 0.5% 0.5%;
+    }
+
+    
+
+    #liensExterneValo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /** --------------------- ARCANE -------------------- **/
+
+    .asidearcane{
+        display: none;
+    }
+
+    #cartesArcane{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #cartesArcane1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .map{
+        margin: auto;
+    }
+
+    #tableauArcane{
+        width: 110%;
+        padding: 3% 0.5% 0.5% 0.5%;
+    }
+
+    #liensExterneArcane{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

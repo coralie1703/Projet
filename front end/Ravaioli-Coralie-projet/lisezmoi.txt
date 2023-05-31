@@ -1,0 +1,41 @@
+RAVAIOLI Coralie
+
+Les selecteurs dans le fichier all.css:
+
+-  *  : Cible l'ensembe de la page html
+-  .navbar:hover  : selectionne les éléments de la barre de navigation
+- #logoRiot : Selectionne le logo dans la barre de navigation
+- .button>img : Selectionne l'image du bouton qui permet de remonter en haut de la page
+- #footer : Selectionne la section footer
+
+Les selecteurs dans le fichier index.css:
+
+- .btn:hover : Selectionne le bouton " découvrir " lorsqu'on passe la souris dessus
+- #section1, #section2, #section3 : Selectionne les différentes parties de la page d'accueil
+- .presentation : Selectionne les textes dans les différentes parties
+
+Les selecteurs dans le fichier html.css:
+
+- #mapLeague : Selectionne ma section "La Carte" de ma page league of legends
+- .asidelol : Selectionne l'image qui reste en bas a droite sur la page league of legend
+
+
+Média-queries :
+
+Dans le fichier tablette.css :
+
+- header : Ici lorsque la taille de l'écran est inférieur a 960px le header ne sera plus centré mais sur le coté gauche de l'écran
+- #logoRiot : ce selecteur permet de changer l'emplacement du logo dans la barre de navigation
+- #section2, .league : Le média-querie ici change l'ordre d'affichage lorsque la taille de l'écran est inférieur a 960px, les éléments d'affichent en colonne
+- .texte-presentation: Permet de changer la taille que prend le texte dans mes sections
+
+Média-queries :
+
+Dans le fichier mobile.css :
+
+- #logoRiot : Le logo dans la barre de navigation disparait lorsque la taille de l'écran est inférieur a 560px
+- .asidelol : Le media querie va faire disparaitre l'image lorsque la taille de l'écran est inférieur a 560px
+
+
+
+Ayant effectuer un ancrage dans ma barre de navigation, je n'ai aps pu utiliser les mêmes selecteurs sur mes pages html.

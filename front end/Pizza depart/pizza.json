@@ -1,0 +1,43 @@
+{
+    "Name": "Chez Mario et Luigi",
+    "Slogan": "Pizzaïolo de père en fils",
+    "Pizzas": [
+        {
+            "Name": "La Cheese Lover",
+            "Image": "https://www.eurialfoodservice-industry.fr/wp-content/uploads/2020/06/166-PIZZA-4-FROMAGES.jpg",
+            "Prix": "12.90 euros",
+            "Ingredients": [
+                "Feta",
+                "Bleu",
+                "Mozza",
+                "Parmesan",
+                "Raclette",
+                "Camembert",
+                "Asiago"
+            ]
+        },
+        {
+            "Name": "La Hawaîenne",
+            "Image": "https://www.casa-pizza.com/images/photorecettes/pizza-hawaienne-123rf.jpg",
+            "Prix": "58.90 euros",
+            "Ingredients": [
+                "Mozza",
+                "Jambon",
+                "Ananas",
+                "Olive"
+            ]
+        },
+        {
+            "Name": "La Regina",
+            "Image": "https://img.mesrecettesfaciles.fr/wp-content/uploads/2016/08/pizza-regina-1000x500.webp",
+            "Prix": "17.90 euros",
+            "Ingredients": [
+                "Mozza",
+                "Jambon",
+                "Tomate",
+                "Champignons",
+                "Olive"
+            ]
+        }
+    ]
+}

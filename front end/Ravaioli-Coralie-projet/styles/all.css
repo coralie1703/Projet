@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(10, 20, 40);
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    color: #d22a36;
+}
+
+p{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(221, 220, 220);
+    display: flex;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    width: 100%;
+}
+
+.navbar:hover{
+    color: #d22a36!important;
+}
+
+.nav-item a{
+    color: #d22a36;
+
+}
+
+#logoRiot{
+    width: 12%;
+    height: 12%;
+    padding: 1% 1%;
+}
+
+.navbar{
+    padding: 0;    
+}
+
+.container-fluid{
+    padding: 2% 0;
+    
+}
+
+.navbar-nav{
+    padding: 0 0%;
+}
+
+nav>ul{
+    background-color: transparent;
+}
+
+ul>li{
+    padding: 0 3% 0 0;    
+}
+
+/** ---------------- BOUTON ------------ **/
+
+.button>img{
+    width: 5%;
+    position: absolute ;
+    position: fixed;
+    right: 125px;
+    bottom: 8px;
+    filter: drop-shadow(0 0 0.60rem rgb(240, 240, 240));
+}
+
+/** --------------- SOURCE ---------------------- **/
+
+#source>a{
+    text-decoration: none;
+    color: rgb(10, 20, 40)
+}
+
+/** ---------------- FOOTER ------------------ **/
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    background-color: rgb(221, 220, 220);
+    padding: 1%;
+}
+
+.logoFooter{
+    width: 3%;
+}
+
+.logoFooter1{
+    width: 4%;
+}

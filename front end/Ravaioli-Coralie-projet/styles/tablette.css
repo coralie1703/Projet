@@ -1,0 +1,147 @@
+@media screen and (max-width: 960px)
+{
+    /** ----------------- ALL ------------------ **/
+
+    header{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #logoRiot{
+        padding: 3% 1%;
+    }
+    .navbar{
+        padding: 1%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoFooter{
+        width: 5%;
+    }
+    
+    .logoFooter1{
+        width: 6%;
+    }
+
+    /** ------------------------ RIOT ------------------------ **/
+
+    #section1{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section2{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .league{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section3{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .valorant{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section4{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .arcane{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texte-presentation{
+        width: 80%;
+    }
+
+    /** ------------------------- LEAGUE ------------------ **/
+
+    .presentation{
+        width: 80%;
+    }
+
+    #mapLeague{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .mapleague{
+        width: 85%;
+        margin: auto;
+        border-radius: 35px;
+    }
+    #roleLeague{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    .carouselLol{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #liensExterneLol{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /** ------------------- VALORANT -------------------- **/
+
+    #liensExterneValo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /** --------------------- ARCANE -------------------- **/
+
+    #cartesArcane{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #cartesArcane1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .map{
+        margin: auto;
+    }
+
+    #liensExterneArcane{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

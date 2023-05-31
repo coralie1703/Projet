@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    margin: 8% 0 0 0;
+    color: #d22a36;
+}
+
+/** -------------------------------------- SOURCE -------------------------------- **/
+
+#source{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+/** -----------------------------------------  PAGE LEAGUE  -------------------------------------- **/
+
+#presentationLeague{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+.imgpresentation{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+.presentation{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapLeague{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+.mapleague{
+    width: 65%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 35px;
+}
+.texte-presentation{
+    padding: 4% 2%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.asidelol{
+    width: 14.5%;
+    position: absolute;
+    position: fixed;
+    bottom: 0px;
+    right: 2px;
+    filter: opacity(98%);
+    
+}
+
+
+#roleLeague{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    padding: 1% 1%;
+}
+
+#tableauLol{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+.table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#liensExterneLol{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 2% 2%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+.siteLol{
+    text-decoration: none;
+}
+
+.site{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.imglien{
+    width: 85%;
+}
+
+/** -----------------------------------  PAGE VALORANT  ----------------------------------- **/
+
+#presentationValorant{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+#carouselValo{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.imgcarousel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.asidevalo{
+    width: 17%;
+    position: absolute;
+    position: fixed;
+    bottom: -25px;
+    left: 1px;
+    filter: opacity(90%);
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    padding: 2%;
+
+}
+
+#tableauValo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    padding: 1% 0 0 0;
+}
+
+#liensExterneValo{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 2% 2%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+/** --------------------------------------------  PAGE ARCANE  ---------------------------------------- **/
+
+#presentationArcane{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+#cartesArcane{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+#mapPiltover{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+.map{
+    width: 85%;
+    padding: 2%;
+    border-radius: 35px;
+}
+
+.asidearcane{
+    width: 18%;
+    position: absolute;
+    position: fixed;
+    bottom: 0px;
+    right: -20px;
+    filter: opacity(98%);
+}
+
+#cartesArcane1{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}
+
+#carouselArcane{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#tableauArcane{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    padding: 1% 0 0 0;
+}
+
+#liensExterneArcane{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 2% 2%;
+    box-shadow: 0 0 0.75rem rgb(240, 240, 240);
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+}

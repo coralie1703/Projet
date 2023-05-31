@@ -1,0 +1,78 @@
+@media screen and (max-width: 960px)
+{
+    #logo{
+        display: flex;
+        margin: auto;
+        margin-bottom: 1%;
+        width: 30%; 
+    }
+    h2{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.4em;
+        border-radius: 8px;
+        background-color: rgb(66, 24, 7);
+        color: white;
+        text-align: center;
+        padding: 1%;
+        margin: 5% 3%;
+    }
+    nav{
+        font-size: 1.6em;
+        background-color: rgb(66, 24, 7);
+        color: white;
+        margin: auto;
+        padding: 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    nav>a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding: 10px 2%;
+    }
+    a:hover{
+        background-color: rgb(100, 77, 67);
+    }
+    .img{
+        border-radius: 2%;
+        margin-right: 3%;
+        width: 100%;
+    }
+    .fas{
+        background-color: rgb(66, 24, 7) ;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    section{
+        width: 70%;
+        margin: auto;
+    }
+    section>h2{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10%;
+
+    }
+    
+    section>p{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    aside{
+        width: 80%;
+        background-color: white;
+        margin-bottom: 2%;
+    }
+    aside>p{
+        background-color: white;
+        padding: 3%;
+    }
+}
+
